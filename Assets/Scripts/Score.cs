@@ -5,10 +5,11 @@ public class Score : MonoBehaviour
 {
     public Transform player;
     public Text scoreText;
+    public int _score = 0;
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeScore(int score)
     {
-        scoreText.text = (player.position.z + 40).ToString("0");
+        _score += score;
+        scoreText.text = _score.ToString();
     }
 }

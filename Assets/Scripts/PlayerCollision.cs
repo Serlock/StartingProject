@@ -9,6 +9,6 @@ public class PlayerCollision : MonoBehaviour
         if (collision.collider.tag == "Obstackle")
         {
             FindObjectOfType<GameManager>().EndGame();
-        }   
+        }
     }
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstackle
+  - Point25
   layers:
   - Default
   - TransparentFX
