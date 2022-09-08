@@ -13,7 +13,7 @@ public class Point : MonoBehaviour
     {
         if (quad.position.z - player.position.z < 2)
         {
-            if (player.position.y <= quad.position.y + 1.5 && player.position.y >= quad.position.y
+            if (player.position.y <= quad.position.y + 1.5 && player.position.y >= quad.position.y - 1
                 && player.position.x >= quad.position.x - 2 && player.position.x <= quad.position.x + 2
                 && quad.position.z - player.position.z > -1)
             {
